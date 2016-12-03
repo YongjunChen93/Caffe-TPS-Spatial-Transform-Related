@@ -304,6 +304,43 @@ message SpatialTransformerParameter {
 	optional double theta_2_2 = 10;
 	optional double theta_2_3 = 11;
 }
+//added by Y Chen
+
+
+message TPStransformerParameter{
+	
+	// If not set,stay same with the input dimension H and W
+	optional int32 output_H = 1;
+	optional int32 output_W = 2;
+
+	// If false, only compute dTheta, DO NOT compute dU
+	optional bool to_compute_dU = 3 [default = true];
+	optional bool global_debug = 4 [default = true];
+
+}
+message CToParaParameter {
+
+	// How to use the parameter passed by localisation network
+	optional string transform_type = 1 [default = "TPS"];
+	// What is the sampling technique
+	optional string sampler_type = 2 [default = "bilinear"];
+	//optional bool global_debug_ = 3 [default = true];
+}
+
+// added by Jun Li
+message SpatialDecoderParameter{
+
+
+        optional int32 output_H = 1;
+        optional int32 output_W = 2;
+
+
+        optional bool to_compute_dU = 3 [default = true];
+        optional bool global_debug = 4 [default = true];
+
+
+
+}
 
 // added by Kaichun Mo
 message PowerFileParameter {
@@ -456,6 +493,14 @@ message LayerParameter {
   optional STLossParameter st_loss_param = 145;
   optional PowerFileParameter power_file_param = 146;
   optional LocLossParameter loc_loss_param = 147;
+  // added by Y Chen
+  
+  optional CToParaParameter st_cparam = 150;
+  optional TPStransformerParameter st_tparam = 151; 
+   //added by Jun Li
+  optional SpatialDecoderParameter sd_param = 152;
+
+
 }
 
 // Message that stores parameters used by LSTMParameter
