@@ -1,6 +1,6 @@
 # Spatial Transformer Networks with TPS transformation in Caffe
 
-This code implemented the hot-off-the-press-paper [Spatial Transformer Network](http://arxiv.org/abs/1506.02025)in one of the most popular deep learning frameworks -- [Caffe](http://caffe.berkeleyvision.org/). This code implemented the Spatial Transformer Network with TPS transformation.
+This code implemented the hot-off-the-press-paper [Spatial Transformer Network](http://arxiv.org/abs/1506.02025) in one of the most popular deep learning frameworks -- [Caffe](http://caffe.berkeleyvision.org/). This code implemented the Spatial Transformer Network with TPS transformation.
 
 ## Oragnization of the code
 
