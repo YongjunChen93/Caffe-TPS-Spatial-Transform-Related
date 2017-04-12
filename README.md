@@ -14,4 +14,4 @@ This code implemented the hot-off-the-press-paper [Spatial Transformer Network](
 This code was implemented based on the Spatial Transformer Networks with Affine transformation, which has been implemented by Carey Mo:(https://github.com/daerduoCarey/SpatialTransformerLayer). 
 
 ## Acknowledge
-The code is implemented at the first semester of my Ph.D degree study. Since it is my first time implement an C++ application, the code might not be as effective as possible. But here, I still want to thank great help from my advisor Dr.Ji and Ph.D students T.Zeng, J.Li and Z.Wang.
+The code is implemented at the first semester of my Master degree study. Since it is my first time implement an C++ application, the code might not be as effective as possible. But here, I still want to thank great help from my advisor Dr.Ji and Ph.D students T.Zeng, J.Li and Z.Wang.
