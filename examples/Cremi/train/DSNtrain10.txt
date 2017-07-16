@@ -1,0 +1,2 @@
+/tempspace/jli1/icmldata/snemi3d_train10.h5
+

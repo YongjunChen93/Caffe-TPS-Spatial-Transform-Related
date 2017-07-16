@@ -7,7 +7,7 @@ This code implemented the hot-off-the-press-paper [Spatial Transformer Network](
 * **src/caffe/layers:** contains the CPU implementation (two `.cpp` files) for Spatial Transformer with TPS Layer.I will update the GPU part as soon as possible. In that part, there will have two `.cu` files for the Layer.
 * **src/caffe/proto:** contains my proto definition for Spatial Transformer Layer (Search for 'CtoParaParameter' and 'TPStransformParameter').
 * **include:** contains two `.hpp` files for the layer.
-* **examples:** contains several sample setting files (`.prototxt`,'.sh' files) for its usages on MNIST digits and training. They should be useful in understanding how to use my Spatial Transformer with TPS layer. 
+* **examples:** contains the experiment code on EM3D and Cremi dataset. You can take a look as an example.
 
 ## Reference
 

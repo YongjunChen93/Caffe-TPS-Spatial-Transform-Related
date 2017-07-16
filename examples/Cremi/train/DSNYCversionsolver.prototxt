@@ -1,0 +1,16 @@
+net: "DSNYCversion.prototxt"
+test_interval: 10
+test_iter: 1
+base_lr: 1e-002
+power: 0.8
+momentum: 0.9
+weight_decay: 0.0005
+#average_loss: 16
+lr_policy: "poly"
+display: 10
+max_iter: 150000
+iter_size: 8
+snapshot: 50
+#snapshot_format: BINARYPROTO
+snapshot_prefix: "DSNtrain10refine"
+solver_mode: GPU
